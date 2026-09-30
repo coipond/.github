@@ -25,7 +25,15 @@ Coi is the sandbox each session runs in. CoiPond drives the `coi` CLI to launch,
 
 ## Agents
 
-Both projects are agent-agnostic. Coi runs Claude Code, opencode, Codex, pi, omp, and more inside isolated containers, with a Tool interface for adding new ones. CoiPond ships adapters for Claude Code and Aider today.
+Both projects are agent-agnostic. Coi runs these inside isolated containers, with a Tool interface for adding new ones:
+
+- Claude Code - Anthropic's CLI for AI-assisted coding
+- opencode - the open-source agent from opencode.ai
+- Codex - OpenAI's coding agent
+- pi - the coding assistant from pi.dev
+- omp - a coding agent in the pi family
+
+CoiPond ships adapters for Claude Code and Aider today.
 
 ## License
 
